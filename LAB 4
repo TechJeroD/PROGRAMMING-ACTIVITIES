@@ -1,0 +1,14 @@
+score = int(input("Say your Grade: "))
+if score < 0 or score > 100:
+  print("Invalid score! Please enter a value between 0 and 100.")
+else:
+    if score >= 90:
+        print("Grade: A")
+    if score >= 80:
+        print("Grade: B")
+    if score >= 70:
+        print("Grade: C")
+    if score >= 60:
+        print("Grade: D")
+    else:
+        print("Grade: F")
