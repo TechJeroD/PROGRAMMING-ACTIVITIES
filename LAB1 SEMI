@@ -1,0 +1,108 @@
+Comverting my Phyton dictionary code into C++ by basing the if-else-if statemnt style.
+YT Link: https://www.youtube.com/shorts/_tfP8Oav8qM?si=dBo9Ex34e14-UhGf
+
+Code:
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string search;
+    cout << "What do you want to search?: ";
+    cin >> search;
+
+    if (search == "ALGORITHM") {
+        cout << "A SET OF INSTRUCTIONS FOR SOLVING A PROBLEM" ;
+    }
+    else if (search == "BANDWIDTH") {
+        cout << "THE RATE OF DATA TRANSFER" ;
+    }
+    else if (search == "CAPACITANCE") {
+        cout << "THE ABILITY OF A COMPONENT TO STORE ENERGY" ;
+    }
+    else if (search == "CIRCUIT") {
+        cout << "A CLOSED LOOP THROUGH WHICH ELECTRICITY FLOWS" ;
+    }
+    else if (search == "DATA") {
+        cout << "RAW FACTS AND FIGURES"  ;
+    }
+    else if (search == "EFFECIENCY") {
+        cout << "THE RATIO OF USEFUL OUTPUT TO TOTAL INPUT" ;
+    }
+    else if (search == "FORCE") {
+        cout << "A PUSH OR PULL THAT CAN CAUSE A CHANGE IN MOTION" ;
+    }
+    else if (search == "GEAR") {
+        cout << "A TOOTHED WHEEL USED TO TRANSMIT POWER OR CHANGE MOTION" ;
+    }
+    else if (search == "HEAT") {
+        cout << "THERMAL ENERGY" ;
+    }
+    else if (search == "IMPEDANCE") {
+        cout << "THE OPPOSITION TO THE FLOW OF ALTERNATING CURRENT" ;
+    }
+    else if (search == "ITERATION") {
+        cout << "A SINGLE EXECUTION OF A SET OF INSTRUCTIONS" ;
+    }
+    else if (search == "JOULE") {
+        cout << "THE SI UNIT OF ENERGY" ;
+    }
+    else if (search == "KINEMATICS") {
+        cout << "THE STUDY OF MOTION WITHOUT CONSIDERING ITS CAUSES" ;
+    }
+    else if (search == "LOAD") {
+        cout << "AN APPLIED FORCE OR WEIGHT" ;
+    }
+    else if (search == "MODULE") {
+        cout << "A SELF-CONTAINED COMPONENT OF A LARGER SYSTEM" ;
+    }
+    else if (search == "NETWORK") {
+        cout << "A SYSTEM OF INTERCONNECTED DEVICES" ;
+    }
+    else if (search == "OSCILLATION") {
+        cout << "A REPETITIVE VARIATION IN THE MAGNITUDE OF A QUANTITY" ;
+    }
+    else if (search == "QUANTUM") {
+        cout << "THE SMALLEST INDIVISIBLE UNIT OF A PHYSICAL QUANTITY" ;
+    }
+    else if (search == "RESISTANCE") {
+        cout << "THE OPPOSITION TO THE FLOW OF ELECTRIC CURRENT" ;
+    }
+    else if (search == "PIXEL") {
+        cout << "THE SMALLEST UNIT OF A DIGITAL IMAGE" ;
+    }
+    else if (search == "SIGNAL") {
+        cout << "AN ELECTRICAL OR ELECTROMAGNETIC PULSE OR WAVE" ;
+    }
+    else if (search == "TORQUE") {
+        cout << "A TWISTING FORCE" ;
+    }
+    else if (search == "UNCERTAINTY") {
+        cout << "THE DEGREE OF DOUBT OR ERROR" ;
+    }
+    else if (search == "VELOCITY") {
+        cout << "THE RATE OF CHANGE OF POSITION" ;
+    }
+    else if (search == "WATT") {
+        cout << "THE SI UNIT OF POWER" ;
+    }
+    else if (search == "X-AXIS") {
+        cout << "THE HORIZONTAL AXIS IN A COORDINATE SYSTEM" ;
+    }
+    else if (search == "YIELD") {
+        cout << "THE AMOUNT OF PRODUCT PRODUCED" ;
+    }
+    else if (search == "ZOOM") {
+        cout << "TO INCREASE THE APPARENT SIZE OF AN OBJECT" ;
+    }
+    else if (search == "ANALOGUE") {
+        cout << "A CONTINUOUS VARIABLE THAT IS THE PRODUCT OF A WAVE OF SIGNAL" ;
+    }
+    else if (search == "DIGITAL") {
+        cout << "A DISCRETE VALUE THAT IS EITHER ON OR OFF" ;
+    }
+    else {
+        cout << "Invalid input" ;
+    }
+
+    retur
